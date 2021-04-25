@@ -1,1 +1,12 @@
-us-east-1:810b13ea-ff9e-4114-8cde-05da011af8eb
+ npx aws-api-gateway-cli-test \
+--username='admin@example.com' \
+--password='Passw0rd!' \
+--user-pool-id='us-east-1_HC5v7x4nG' \
+--app-client-id='6squcvflma55ug87nqgnntcads' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:810b13ea-ff9e-4114-8cde-05da011af8eb' \
+--invoke-url='https://nuox55f06e.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
