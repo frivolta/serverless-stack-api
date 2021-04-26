@@ -10,3 +10,6 @@
 --path-template='/notes' \
 --method='POST' \
 --body='{"content":"hello world","attachment":"hello.jpg"}'
+
+pk_test_mMUZT9R0gWd8tUKibgEKl7Eg00aQTZWcGb
+sk_test_IyXwF0LvsX0BDF38P8x6o4hi00fGEJIhoz
